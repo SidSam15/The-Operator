@@ -47,7 +47,7 @@ I used MX_V1 for the keyswitch footprints, the generic footprint for the XIAO 20
 This hackpad uses KMK firmware for everything. 
 
 - the rotary encoder changes volume. press to turn off LEDs.
-- The 4 keys open applications by correlating with hotkeys on my laptop. Starting from the furthest left, they open Fusion, BambuLabs, VS Code, and Google, respectivley. 
+- The 4 keys open applications by correlating with hotkeys on my laptop. Starting from the furthest left, they open Fusion, Bambu Studio, VS Code, and Google, respectivley. 
 - The OLED shows the last key pressed and the LED on/off status.
 
 
