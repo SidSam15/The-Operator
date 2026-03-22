@@ -2,7 +2,7 @@
 
 The Operator is a 4 key macropad with a rotary encoder, an OLED Display, and 16 LED's for underglow. It used KMK firmware.
 
-The purpose of this macropad is to help make the task of opening applications quicker and to look cool. This is the first macropad I have ever created on my own, and it helped me learn a lot, particularly in PCB design.
+This is my first macropad (and my first hardware project for Hack club ever!) and its purpose is to make the task of opening applications quicker, alongside looking cool. It works with hotkeys on my laptop to open applications like Fusion, Bambu Studio, VS Code, and Google at the click of a button, plus it controls volume and its LEDs with a Rotary Encoder. The OLED shows the last button clicked and it shows the on/off status of the LEDs. This project has helped me learn a lot, particularly in PCB design.
 
 To use this, simply connect it to power via the USB-C on the XIAO 2040 and use like any other macropad.
 
