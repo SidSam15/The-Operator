@@ -18,13 +18,13 @@ Everything fits together using 4 M3 screws and heatset inserts. The screws go in
 
 Case:
 
-![alt text](image-3.png)
+<img width="810" height="450" alt="image-3" src="https://github.com/user-attachments/assets/f87bb009-2b1f-49e0-8ecc-e96fbd7f42c2" />
 
 It has 3 separate printed pieces. The clear bottom where the PCB sits, the middle, and the top.
 
 Full CAD:
 
-![alt text](image.png)
+<img width="810" height="450" alt="image" src="https://github.com/user-attachments/assets/ec2163aa-0b69-4894-b093-bec66a8c9753" />
 
 Made in Fusion360.
 
@@ -33,11 +33,13 @@ This PCB was made in KiCad, and all the components of the silkscreen were downlo
 
 Schematic
 
-![alt text](image-1.png)
+<img width="810" height="410" alt="image-1" src="https://github.com/user-attachments/assets/cd42514d-ae74-4d84-a234-41d7329668e0" />
+
 
 PCB
 
-![alt text](image-2.png)
+<img width="810" height="4120" alt="image-2" src="https://github.com/user-attachments/assets/cf2076da-01bf-4ad0-85f8-2641959e58f5" />
+
 
 I used MX_V1 for the keyswitch footprints, the generic footprint for the XIAO 2040, a 4-pin header for the OLED, the footprint from the guide for the rotary encoder, and the SK6812MINI-E for the LED footprints.
 
