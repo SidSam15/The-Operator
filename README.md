@@ -33,12 +33,11 @@ This PCB was made in KiCad, and all the components of the silkscreen were downlo
 
 Schematic
 
-<img width="1149" height="791" alt="schem-im" src="https://github.com/user-attachments/assets/e306d2c1-81e5-4a05-ab68-0bbd8bba1bc4" />
+<img width="837" height="572" alt="SchemFresh" src="https://github.com/user-attachments/assets/b902461e-0a89-466f-9156-43a6d7fd7271" />
 
 PCB
 
-<img width="810" height="4120" alt="image-2" src="https://github.com/user-attachments/assets/cf2076da-01bf-4ad0-85f8-2641959e58f5" />
-
+<img width="627" height="402" alt="PCBFresh" src="https://github.com/user-attachments/assets/49deada9-5ba7-415f-87f0-02b66791cad8" />
 
 I used MX_V1 for the keyswitch footprints, the generic footprint for the XIAO 2040, a 4-pin header for the OLED, the footprint from the guide for the rotary encoder, and the SK6812MINI-E for the LED footprints.
 
