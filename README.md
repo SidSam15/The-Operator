@@ -37,7 +37,8 @@ Schematic
 
 PCB
 
-<img width="627" height="402" alt="PCBFresh" src="https://github.com/user-attachments/assets/49deada9-5ba7-415f-87f0-02b66791cad8" />
+<img width="923" height="577" alt="PCB" src="https://github.com/user-attachments/assets/f9d8fdca-8c65-47b6-adc4-efe625b9c0b4" />
+
 
 I used MX_V1 for the keyswitch footprints, the generic footprint for the XIAO 2040, a 4-pin header for the OLED, the footprint from the guide for the rotary encoder, and the SK6812MINI-E for the LED footprints.
 
