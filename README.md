@@ -18,7 +18,7 @@ Everything fits together using 4 M3 screws and heatset inserts. The screws go in
 
 Case:
 
-<img src=(image-3.png) alt="Schematic" width="500"/>
+image-3.png
 
 It has 3 separate printed pieces. The clear bottom where the PCB sits, the middle, and the top.
 
@@ -28,7 +28,7 @@ Full CAD:
 
 Made in Fusion360.
 
-## PCB
+## PCB:
 This PCB was made in KiCad, and all the components of the silkscreen were downloaded from the web and manually added inside of KiCad.
 
 Schematic
@@ -41,7 +41,7 @@ PCB
 
 I used MX_V1 for the keyswitch footprints, the generic footprint for the XIAO 2040, a 4-pin header for the OLED, the footprint from the guide for the rotary encoder, and the SK6812MINI-E for the LED footprints.
 
-## Firmware Overview
+## Firmware Overview:
 This hackpad uses KMK firmware for everything. 
 
 - the rotary encoder changes volume. press to turn off LEDs.
