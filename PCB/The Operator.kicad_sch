@@ -1373,6 +1373,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VCC"
 			(power)
 			(pin_numbers
@@ -1536,18 +1637,6 @@
 		(uuid "2fccb744-2111-403a-952b-4332028757b8")
 	)
 	(junction
-		(at 85.09 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b415f0d-75a2-4b0b-84f2-24183582992e")
-	)
-	(junction
-		(at 85.09 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41617a7c-a7ad-4d18-bf4b-75ef6995c981")
-	)
-	(junction
 		(at 245.11 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1582,6 +1671,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "676faa52-54f1-4029-aaac-64525097262a")
+	)
+	(junction
+		(at 82.55 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "689ec95a-e9d2-46eb-a79a-d9c9317b9700")
 	)
 	(junction
 		(at 62.23 121.92)
@@ -1638,6 +1733,12 @@
 		(uuid "abd4c65d-c043-42fd-99df-f15c6660939c")
 	)
 	(junction
+		(at 82.55 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af39a464-6f07-495e-b047-f1e86c6f94bd")
+	)
+	(junction
 		(at 38.1 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1690,6 +1791,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdc767d5-4764-4183-8619-6d0d493c4c21")
+	)
+	(no_connect
+		(at 138.43 166.37)
+		(uuid "13ebd1b4-bb86-498b-83a0-bfd7a3aade12")
+	)
+	(no_connect
+		(at 214.63 83.82)
+		(uuid "ddf966bb-7133-4527-a965-dbeec5064ae4")
 	)
 	(wire
 		(pts
@@ -1813,13 +1922,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 137.16) (xy 100.33 137.16)
+			(xy 129.54 69.85) (xy 129.54 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23efab5f-35cd-473f-ac0d-f92f0e1eb48f")
+		(uuid "21d0152c-aea8-48a7-8df3-0acd1d030e2b")
 	)
 	(wire
 		(pts
@@ -1830,6 +1939,16 @@
 			(type default)
 		)
 		(uuid "28bea962-488b-4be5-9dee-b6dce8abd44b")
+	)
+	(wire
+		(pts
+			(xy 129.54 67.31) (xy 134.62 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2953087c-53c4-453e-8e1d-e0d8cb4aed84")
 	)
 	(wire
 		(pts
@@ -1953,6 +2072,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 121.92) (xy 107.95 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c9b330c-4222-43f9-8669-01e77ab0fb29")
+	)
+	(wire
+		(pts
 			(xy 13.97 153.67) (xy 13.97 121.92)
 		)
 		(stroke
@@ -2000,6 +2129,16 @@
 			(type default)
 		)
 		(uuid "690444d8-71d3-421a-87b0-44688f613938")
+	)
+	(wire
+		(pts
+			(xy 207.01 137.16) (xy 214.63 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b78ce23-a442-42c0-b644-1fd54bf848a4")
 	)
 	(wire
 		(pts
@@ -2133,6 +2272,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 137.16) (xy 54.61 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96ed4e88-19b4-47fb-8b81-106c2a3c56a9")
+	)
+	(wire
+		(pts
 			(xy 222.25 121.92) (xy 222.25 129.54)
 		)
 		(stroke
@@ -2150,6 +2299,16 @@
 			(type default)
 		)
 		(uuid "9b069ffb-64c6-4864-9e0b-6810bcffc70f")
+	)
+	(wire
+		(pts
+			(xy 82.55 144.78) (xy 107.95 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bb914ed-a23c-4725-b9a2-f8b09c617287")
 	)
 	(wire
 		(pts
@@ -2193,17 +2352,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 121.92) (xy 107.95 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a374c0a8-bd47-4c32-ba01-c21cc2cb4e18")
-	)
-	(wire
-		(pts
-			(xy 85.09 121.92) (xy 85.09 129.54)
+			(xy 82.55 121.92) (xy 82.55 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2233,7 +2382,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 121.92) (xy 85.09 121.92)
+			(xy 62.23 121.92) (xy 82.55 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2343,16 +2492,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 144.78) (xy 107.95 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b515d475-d1d7-4f33-889c-5d867ca64d6a")
-	)
-	(wire
-		(pts
 			(xy 245.11 129.54) (xy 245.11 121.92)
 		)
 		(stroke
@@ -2383,6 +2522,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 137.16) (xy 237.49 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c32bc198-acb6-4764-82c5-a78d6120a37b")
+	)
+	(wire
+		(pts
 			(xy 153.67 173.99) (xy 151.13 173.99)
 		)
 		(stroke
@@ -2393,7 +2542,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 144.78) (xy 85.09 144.78)
+			(xy 62.23 144.78) (xy 82.55 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2403,13 +2552,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 137.16) (xy 54.61 137.16)
+			(xy 90.17 137.16) (xy 100.33 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c751bf1c-446c-4798-87ce-b9ea537d0631")
+		(uuid "c6325621-09b3-4de2-b62f-b6dc915ebba5")
 	)
 	(wire
 		(pts
@@ -2483,7 +2632,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 137.16) (xy 77.47 137.16)
+			(xy 69.85 137.16) (xy 74.93 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2520,6 +2669,16 @@
 			(type default)
 		)
 		(uuid "e5411966-50b3-4da0-a420-7ad691d377a9")
+	)
+	(wire
+		(pts
+			(xy 118.11 69.85) (xy 129.54 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea2083e6-b49c-4276-9a1d-1ca341958eed")
 	)
 	(wire
 		(pts
@@ -2610,6 +2769,16 @@
 			(type default)
 		)
 		(uuid "f70c62e7-a700-4c93-83fe-55ae00d50125")
+	)
+	(wire
+		(pts
+			(xy 118.11 63.5) (xy 134.62 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9750d5d-7e51-4cc2-b591-7bfd1aaeb1d0")
 	)
 	(wire
 		(pts
@@ -3121,7 +3290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 223.52 144.78 0)
 			(effects
 				(font
@@ -3199,7 +3368,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 246.38 144.78 0)
 			(effects
 				(font
@@ -3229,21 +3398,87 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb1670e6-144d-4d65-b483-8c0309d8955a")
+			(uuid "fb1670e6-144d-4d65-b483-8c0309d8955b")
 		)
 		(pin "4"
-			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045768")
+			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045769")
 		)
 		(pin "2"
-			(uuid "a5142401-0f2e-4a5d-92d3-72c128f7170a")
+			(uuid "a5142401-0f2e-4a5d-92d3-72c128f7170b")
 		)
 		(pin "3"
-			(uuid "0ce8d051-c8f4-4d65-b509-edf49287022b")
+			(uuid "0ce8d051-c8f4-4d65-b509-edf49287022c")
 		)
 		(instances
 			(project ""
 				(path "/b4ff74b6-4925-40e9-ba3b-be7f367f7c0a"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 118.11 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22dd5c48-9e6d-4c5f-b3d8-836f4f9ec832")
+		(property "Reference" "#FLG01"
+			(at 118.11 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 118.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "288b60fa-e7cd-4243-bdad-0060c9b6232a")
+		)
+		(instances
+			(project ""
+				(path "/b4ff74b6-4925-40e9-ba3b-be7f367f7c0a"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -3418,7 +3653,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 63.5 173.99 0)
 			(effects
 				(font
@@ -3448,16 +3683,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb1670e6-144d-4d65-b483-8c0309d8955a")
+			(uuid "fb1670e6-144d-4d65-b483-8c0309d8955c")
 		)
 		(pin "4"
-			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045768")
+			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa04576a")
 		)
 		(pin "2"
-			(uuid "a5142401-0f2e-4a5d-92d3-72c128f7170a")
+			(uuid "a5142401-0f2e-4a5d-92d3-72c128f7170c")
 		)
 		(pin "3"
-			(uuid "0ce8d051-c8f4-4d65-b509-edf49287022b")
+			(uuid "0ce8d051-c8f4-4d65-b509-edf49287022d")
 		)
 		(instances
 			(project ""
@@ -3476,10 +3711,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3dd99653-bb70-4f5e-b112-bf5d70463a7e")
 		(property "Reference" "D1"
-			(at 63.5 130.7398 0)
+			(at 63.5 132.0098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,7 +3721,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 63.5 133.2799 0)
+			(at 63.5 134.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3496,7 +3730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 39.37 144.78 0)
 			(effects
 				(font
@@ -3526,16 +3760,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb1670e6-144d-4d65-b483-8c0309d8955a")
+			(uuid "fb1670e6-144d-4d65-b483-8c0309d8955d")
 		)
 		(pin "4"
-			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045768")
+			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa04576b")
 		)
 		(pin "2"
-			(uuid "a5142401-0f2e-4a5d-92d3-72c128f7170a")
+			(uuid "a5142401-0f2e-4a5d-92d3-72c128f7170d")
 		)
 		(pin "3"
-			(uuid "0ce8d051-c8f4-4d65-b509-edf49287022b")
+			(uuid "0ce8d051-c8f4-4d65-b509-edf49287022e")
 		)
 		(instances
 			(project ""
@@ -3616,16 +3850,15 @@
 	)
 	(symbol
 		(lib_id "SK6812MINI-E:SK6812MINI-E")
-		(at 85.09 137.16 0)
+		(at 82.55 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b117368-6f56-4c44-8704-ae8a340ae404")
 		(property "Reference" "D3"
-			(at 110.49 130.7398 0)
+			(at 107.95 130.7398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3633,7 +3866,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 110.49 133.2799 0)
+			(at 107.95 133.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3642,8 +3875,8 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
-			(at 86.36 144.78 0)
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
+			(at 83.82 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,7 +3886,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
-			(at 87.63 146.685 0)
+			(at 85.09 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3663,7 +3896,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 85.09 137.16 0)
+			(at 82.55 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3672,16 +3905,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb1670e6-144d-4d65-b483-8c0309d8955a")
+			(uuid "fb1670e6-144d-4d65-b483-8c0309d8955e")
 		)
 		(pin "4"
-			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045768")
+			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa04576c")
 		)
 		(pin "2"
-			(uuid "a5142401-0f2e-4a5d-92d3-72c128f7170a")
+			(uuid "a5142401-0f2e-4a5d-92d3-72c128f7170e")
 		)
 		(pin "3"
-			(uuid "0ce8d051-c8f4-4d65-b509-edf49287022b")
+			(uuid "0ce8d051-c8f4-4d65-b509-edf49287022f")
 		)
 		(instances
 			(project ""
@@ -3720,7 +3953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 200.66 144.78 0)
 			(effects
 				(font
@@ -3750,21 +3983,219 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb1670e6-144d-4d65-b483-8c0309d8955a")
+			(uuid "fb1670e6-144d-4d65-b483-8c0309d8955f")
 		)
 		(pin "4"
-			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045768")
+			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa04576d")
 		)
 		(pin "2"
-			(uuid "a5142401-0f2e-4a5d-92d3-72c128f7170a")
+			(uuid "a5142401-0f2e-4a5d-92d3-72c128f7170f")
 		)
 		(pin "3"
-			(uuid "0ce8d051-c8f4-4d65-b509-edf49287022b")
+			(uuid "0ce8d051-c8f4-4d65-b509-edf492870230")
 		)
 		(instances
 			(project ""
 				(path "/b4ff74b6-4925-40e9-ba3b-be7f367f7c0a"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 134.62 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56b767ef-a996-4cef-81d6-dfb96f98590c")
+		(property "Reference" "#PWR09"
+			(at 134.62 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 134.62 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62aa9b20-aad7-46b3-8d00-78d2b4d0d002")
+		)
+		(instances
+			(project ""
+				(path "/b4ff74b6-4925-40e9-ba3b-be7f367f7c0a"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 118.11 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d5e0640-08c3-4afe-9177-cacfaa6263b4")
+		(property "Reference" "#FLG02"
+			(at 118.11 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 118.11 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 118.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32cc2d89-94ff-4d67-962e-edfb415effb0")
+		)
+		(instances
+			(project ""
+				(path "/b4ff74b6-4925-40e9-ba3b-be7f367f7c0a"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69be6a16-91dd-4a55-a16b-f924a2cbbca6")
+		(property "Reference" "#PWR010"
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "947f8af6-b5db-4386-83c6-2dba62b5018e")
+		)
+		(instances
+			(project ""
+				(path "/b4ff74b6-4925-40e9-ba3b-be7f367f7c0a"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3996,7 +4427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 177.8 144.78 0)
 			(effects
 				(font
@@ -4026,16 +4457,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb1670e6-144d-4d65-b483-8c0309d8955a")
+			(uuid "fb1670e6-144d-4d65-b483-8c0309d89560")
 		)
 		(pin "4"
-			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045768")
+			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa04576e")
 		)
 		(pin "2"
-			(uuid "a5142401-0f2e-4a5d-92d3-72c128f7170a")
+			(uuid "a5142401-0f2e-4a5d-92d3-72c128f71710")
 		)
 		(pin "3"
-			(uuid "0ce8d051-c8f4-4d65-b509-edf49287022b")
+			(uuid "0ce8d051-c8f4-4d65-b509-edf492870231")
 		)
 		(instances
 			(project ""
@@ -4140,7 +4571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 109.22 144.78 0)
 			(effects
 				(font
@@ -4170,16 +4601,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb1670e6-144d-4d65-b483-8c0309d8955a")
+			(uuid "fb1670e6-144d-4d65-b483-8c0309d89561")
 		)
 		(pin "4"
-			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045768")
+			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa04576f")
 		)
 		(pin "2"
-			(uuid "a5142401-0f2e-4a5d-92d3-72c128f7170a")
+			(uuid "a5142401-0f2e-4a5d-92d3-72c128f71711")
 		)
 		(pin "3"
-			(uuid "0ce8d051-c8f4-4d65-b509-edf49287022b")
+			(uuid "0ce8d051-c8f4-4d65-b509-edf492870232")
 		)
 		(instances
 			(project ""
@@ -4284,7 +4715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 39.37 173.99 0)
 			(effects
 				(font
@@ -4314,16 +4745,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb1670e6-144d-4d65-b483-8c0309d8955a")
+			(uuid "fb1670e6-144d-4d65-b483-8c0309d89562")
 		)
 		(pin "4"
-			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045768")
+			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045770")
 		)
 		(pin "2"
-			(uuid "a5142401-0f2e-4a5d-92d3-72c128f7170a")
+			(uuid "a5142401-0f2e-4a5d-92d3-72c128f71712")
 		)
 		(pin "3"
-			(uuid "0ce8d051-c8f4-4d65-b509-edf49287022b")
+			(uuid "0ce8d051-c8f4-4d65-b509-edf492870233")
 		)
 		(instances
 			(project ""
@@ -4507,7 +4938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 132.08 173.99 0)
 			(effects
 				(font
@@ -4537,16 +4968,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb1670e6-144d-4d65-b483-8c0309d8955a")
+			(uuid "fb1670e6-144d-4d65-b483-8c0309d89563")
 		)
 		(pin "4"
-			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045768")
+			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045771")
 		)
 		(pin "2"
-			(uuid "a5142401-0f2e-4a5d-92d3-72c128f7170a")
+			(uuid "a5142401-0f2e-4a5d-92d3-72c128f71713")
 		)
 		(pin "3"
-			(uuid "0ce8d051-c8f4-4d65-b509-edf49287022b")
+			(uuid "0ce8d051-c8f4-4d65-b509-edf492870234")
 		)
 		(instances
 			(project ""
@@ -4651,7 +5082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 113.03 173.99 0)
 			(effects
 				(font
@@ -4681,16 +5112,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb1670e6-144d-4d65-b483-8c0309d8955a")
+			(uuid "fb1670e6-144d-4d65-b483-8c0309d89564")
 		)
 		(pin "4"
-			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045768")
+			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045772")
 		)
 		(pin "2"
-			(uuid "a5142401-0f2e-4a5d-92d3-72c128f7170a")
+			(uuid "a5142401-0f2e-4a5d-92d3-72c128f71714")
 		)
 		(pin "3"
-			(uuid "0ce8d051-c8f4-4d65-b509-edf49287022b")
+			(uuid "0ce8d051-c8f4-4d65-b509-edf492870235")
 		)
 		(instances
 			(project ""
@@ -4729,7 +5160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 88.9 173.99 0)
 			(effects
 				(font
@@ -4759,16 +5190,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb1670e6-144d-4d65-b483-8c0309d8955a")
+			(uuid "fb1670e6-144d-4d65-b483-8c0309d89565")
 		)
 		(pin "4"
-			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045768")
+			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045773")
 		)
 		(pin "2"
-			(uuid "a5142401-0f2e-4a5d-92d3-72c128f7170a")
+			(uuid "a5142401-0f2e-4a5d-92d3-72c128f71715")
 		)
 		(pin "3"
-			(uuid "0ce8d051-c8f4-4d65-b509-edf49287022b")
+			(uuid "0ce8d051-c8f4-4d65-b509-edf492870236")
 		)
 		(instances
 			(project ""
@@ -4787,10 +5218,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d321d47d-ba3d-4b52-b02d-b3082ff541bc")
 		(property "Reference" "D2"
-			(at 87.63 130.7398 0)
+			(at 87.63 132.0098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4798,7 +5228,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 87.63 133.2799 0)
+			(at 87.63 134.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4807,7 +5237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 63.5 144.78 0)
 			(effects
 				(font
@@ -4837,16 +5267,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb1670e6-144d-4d65-b483-8c0309d8955a")
+			(uuid "fb1670e6-144d-4d65-b483-8c0309d89566")
 		)
 		(pin "4"
-			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045768")
+			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045774")
 		)
 		(pin "2"
-			(uuid "a5142401-0f2e-4a5d-92d3-72c128f7170a")
+			(uuid "a5142401-0f2e-4a5d-92d3-72c128f71716")
 		)
 		(pin "3"
-			(uuid "0ce8d051-c8f4-4d65-b509-edf49287022b")
+			(uuid "0ce8d051-c8f4-4d65-b509-edf492870237")
 		)
 		(instances
 			(project ""
@@ -4885,7 +5315,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 132.08 144.78 0)
 			(effects
 				(font
@@ -4915,16 +5345,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb1670e6-144d-4d65-b483-8c0309d8955a")
+			(uuid "fb1670e6-144d-4d65-b483-8c0309d89567")
 		)
 		(pin "4"
-			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045768")
+			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045775")
 		)
 		(pin "2"
-			(uuid "a5142401-0f2e-4a5d-92d3-72c128f7170a")
+			(uuid "a5142401-0f2e-4a5d-92d3-72c128f71717")
 		)
 		(pin "3"
-			(uuid "0ce8d051-c8f4-4d65-b509-edf49287022b")
+			(uuid "0ce8d051-c8f4-4d65-b509-edf492870238")
 		)
 		(instances
 			(project ""
@@ -4962,7 +5392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 269.24 144.78 0)
 			(effects
 				(font
@@ -4992,16 +5422,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb1670e6-144d-4d65-b483-8c0309d8955a")
+			(uuid "fb1670e6-144d-4d65-b483-8c0309d89568")
 		)
 		(pin "4"
-			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045768")
+			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045776")
 		)
 		(pin "2"
-			(uuid "a5142401-0f2e-4a5d-92d3-72c128f7170a")
+			(uuid "a5142401-0f2e-4a5d-92d3-72c128f71718")
 		)
 		(pin "3"
-			(uuid "0ce8d051-c8f4-4d65-b509-edf49287022b")
+			(uuid "0ce8d051-c8f4-4d65-b509-edf492870239")
 		)
 		(instances
 			(project ""
@@ -5105,7 +5535,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 154.94 144.78 0)
 			(effects
 				(font
@@ -5135,16 +5565,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb1670e6-144d-4d65-b483-8c0309d8955a")
+			(uuid "fb1670e6-144d-4d65-b483-8c0309d89569")
 		)
 		(pin "4"
-			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045768")
+			(uuid "a63c56e0-4122-4e4a-9ed2-9c02fa045777")
 		)
 		(pin "2"
-			(uuid "a5142401-0f2e-4a5d-92d3-72c128f7170a")
+			(uuid "a5142401-0f2e-4a5d-92d3-72c128f71719")
 		)
 		(pin "3"
-			(uuid "0ce8d051-c8f4-4d65-b509-edf49287022b")
+			(uuid "0ce8d051-c8f4-4d65-b509-edf49287023a")
 		)
 		(instances
 			(project ""
