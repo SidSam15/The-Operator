@@ -33,7 +33,7 @@ This PCB was made in KiCad, and all the components of the silkscreen were downlo
 
 Schematic
 
-<img width="810" height="410" alt="image-1" src="https://github.com/user-attachments/assets/cd42514d-ae74-4d84-a234-41d7329668e0" />
+
 
 
 PCB
