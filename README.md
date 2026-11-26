@@ -1,5 +1,7 @@
 # The Operator
 
+<img width="442" height="273" alt="image" src="https://github.com/user-attachments/assets/78b6a34b-3231-4dcb-8b04-c0604be3e4cf" />
+
 The Operator is a 4 key macropad with a rotary encoder, an OLED Display, and 16 LED's for underglow. It used KMK firmware.
 
 This is my first macropad (and my first hardware project for Hack club ever!) and its purpose is to make the task of opening applications quicker, alongside looking cool. It works with hotkeys on my laptop to open applications like Fusion, Bambu Studio, VS Code, and Google at the click of a button, plus it controls volume and its LEDs with a Rotary Encoder. The OLED shows the last button clicked and it shows the on/off status of the LEDs. This project has helped me learn a lot, particularly in PCB design.
